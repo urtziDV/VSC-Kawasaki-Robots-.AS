@@ -1,0 +1,30 @@
+{
+    "name": "kawasaki-as",
+    "displayName": "Kawasaki AS",
+    "description": "Language support for the Kawasaki Robots AS programming language",
+    "version": "0.1.1",
+    "publisher": "UrtziDV",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/verbotics/vscode-abb-rapid.git"
+    },
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "as",
+            "aliases": ["KAWASAKI", "Kawasaki"],
+            "extensions": [".as"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "as",
+            "scopeName": "source.as",
+            "path": "./syntaxes/as.tmLanguage.json"
+        }]
+    }
+}
