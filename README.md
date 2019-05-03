@@ -2,13 +2,17 @@
 
 Language support for the Kawasaki Robotics AS programming language.
 
-![screenshot](https://user-images.githubusercontent.com/31570/47122326-0d188800-d2c2-11e8-88ea-7996bc306b2d.png)
+![screenshot](https://github.com/urtziDV/VSCode-Kawasaki-Robotics-.AS/blob/master/Captura.PNG?raw=true)
 
-* [GitHub Repository](https://github.com/urtziDV/VSCode-Kawasaki-Robotics-.AS)
-* [Issues](https://github.com/urtziDV/VSCode-Kawasaki-Robotics-.AS/issues)
+* [Repositorio GitHub](https://github.com/urtziDV/VSCode-Kawasaki-Robotics-.AS)
+* [Bugs/Fallos](https://github.com/urtziDV/VSCode-Kawasaki-Robotics-.AS/issues)
 
 ## Changelog
 
+### 1.0
+
+* Nuevos comandos y colores añadidos
+
 ### 0.1
 
-* Initial release
+* Versión preliminar
