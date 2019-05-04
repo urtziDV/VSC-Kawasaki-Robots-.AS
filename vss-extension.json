@@ -1,0 +1,46 @@
+{
+    "manifestVersion": 1,
+    "id": "kawasaki-as",
+    "version": "1.1",
+    "name": "Kawasaki .AS",
+    "publisher": "urtzidv",
+    "description": "Programming language support for the Kawasaki Robotics .AS",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "images/kawa.png"
+    },
+    "scopes": [
+        "vso.work",
+        "vso.code_write",
+        "vso.build_execute"
+    ],
+    "categories": [
+        "Azure Boards"
+    ],
+    "branding": {
+        "color": "rgb(34, 34, 34)",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/urtziDV/VSCode-Kawasaki-Robotics-.AS"
+    },
+    "contributions": [
+        {
+            "id": "showCommits",
+            "type": "ms.vss-web.action",
+            "description": "Adds a menu action from builds grid to show associated items.",
+            "targets": [
+                "ms.vss-build-web.completed-build-menu"
+            ],
+            "properties": {
+                "title": "View associated items",
+                "uri": "launch.html"
+            }
+        }
+    ]
+}

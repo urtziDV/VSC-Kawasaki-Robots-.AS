@@ -2,7 +2,7 @@
     "name": "kawasaki-as",
     "displayName": "Kawasaki AS",
     "description": "Programming language support for the Kawasaki Robotics .AS",
-    "version": "1.0",
+    "version": "1.1",
     "icon": "images/kawa.png",
     "publisher": "urtziDV",
     "repository": {
