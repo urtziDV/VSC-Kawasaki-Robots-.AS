@@ -1,12 +1,13 @@
 {
     "name": "kawasaki-as",
     "displayName": "Kawasaki AS",
-    "description": "Language support for the Kawasaki Robots AS programming language",
-    "version": "0.1.1",
-    "publisher": "UrtziDV",
+    "description": "Programming language support for the Kawasaki Robotics .AS",
+    "version": "1.0",
+    "icon": "images/kawa.png",
+    "publisher": "urtziDV",
     "repository": {
         "type": "git",
-        "url": "https://github.com/verbotics/vscode-abb-rapid.git"
+        "url": "https://github.com/urtziDV/VSCode-Kawasaki-Robotics-.AS"
     },
     "engines": {
         "vscode": "^1.28.0"
